@@ -1,0 +1,21 @@
+{
+  "name": "idui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w scss/app.scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umaralfaruqdev/idui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umaralfaruqdev/idui/issues"
+  },
+  "homepage": "https://github.com/umaralfaruqdev/idui#readme"
+}
