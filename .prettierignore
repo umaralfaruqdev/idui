@@ -1,0 +1,10 @@
+# ignore license
+LICENSE
+
+# ignore assets
+assets
+
+# ignore json
+*.json
+
+
