@@ -1,0 +1,216 @@
+/**
+ * flex
+ */
+
+@mixin flex {
+    display: flex;
+}
+
+%flex {
+    @include flex;
+}
+/**
+ * flex to 1
+ */
+@mixin f-1 {
+    flex: 1;
+}
+
+%f-1 {
+    @include f-1;
+}
+
+/**
+ * flex to 0
+ */
+@mixin f-0 {
+    flex: 0;
+}
+
+%f-0 {
+    @include f-0;
+}
+
+/* Align items
+   =================================================================*/
+
+/**
+ * to top of parent
+ */
+@mixin aifs {
+    align-items: flex-start;
+}
+
+%aifs {
+    @include aifs;
+}
+
+/**
+ * to center of parent
+ */
+
+@mixin aic {
+    align-items: center;
+}
+
+%aic {
+    @include aic;
+}
+
+/**
+ * to end of parent
+ **/
+
+@mixin aife {
+    align-items: flex-end;
+}
+
+%aife {
+    @include aife;
+}
+
+/**
+ * strech
+ **/
+
+@mixin ais {
+    align-items: stretch;
+}
+
+%ais {
+    @include ais;
+}
+
+/* Justify content
+   =================================================================*/
+
+/**
+ * left of parent
+ */
+@mixin jcfs {
+    justify-content: flex-start;
+}
+
+%jcfs {
+    @include jcfs;
+}
+
+/**
+ * center of parent
+ */
+@mixin jcc {
+    justify-content: center;
+}
+
+%jcc {
+    @include jcc;
+}
+
+/**
+ * end of parent
+ */
+@mixin jcfe {
+    justify-content: flex-end;
+}
+
+%jcfe {
+    @include jcfe;
+}
+
+/**
+ * around of parent
+ */
+@mixin jcsa {
+    justify-content: space-around;
+}
+
+%jcsa {
+    @include jcsa;
+}
+
+/**
+ * between of parent
+ */
+@mixin jcsb {
+    justify-content: space-between;
+}
+
+%jcsb {
+    @include jcsb;
+}
+
+/* Direction
+   =================================================================*/
+
+/**
+ * flex to column
+ */
+@mixin f-col {
+    flex-direction: column;
+}
+
+%f-col {
+    @include f-col;
+}
+
+/**
+ * flex to row
+ */
+@mixin f-row {
+    flex-direction: row;
+}
+
+%f-row {
+    @include f-row;
+}
+
+/* Flex grow
+   =================================================================*/
+
+/**
+ * grow to 1
+ */
+@mixin fg-1 {
+    flex-grow: 1;
+}
+
+%fg-1 {
+    @include fg-1;
+}
+
+/**
+ * grow to 0
+ */
+
+@mixin fg-0 {
+    flex-grow: 0;
+}
+
+%fg-0 {
+    @include fg-0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+@import "mixin/flex-box-mixin";
+
+// flex display
+.flex {
+    @extend %flex;
+}
+
+// flex to 1
+.f-1 {
+    @extend %f-1;
+}
+
+// flex to 0
+.f-0 {
+    @extend %f-0;
+}
+
+// Align items
+// =================================================================
+
+// to top of parent
+.aifs {
+    @extend %aifs;
+}
+
+// to center of parent
+.aic {
+    @extend %aic;
+}
+
+// to end of parent
+.aife {
+    @extend %aife;
+}
+
+// stretch
+.ais {
+    @extend %ais;
+}
+
+
+// Justify content
+// =================================================================
+
+// left of parent
+.jcfs {
+   @extend %jcfs; 
+}
+
+// center of parent
+.jcc {
+    @extend %jcc;
+}
+
+// right of parent
+.jcfe {
+    @extend %jcfe;
+}
+
+// around of parent
+.jcsa {
+    @extend %jcsa;
+}
+
+// between of parent
+.jcsb {
+    @extend %jcsb;
+}
+
+// Direction
+// =================================================================
+
+//column direction
+.f-col {
+    @extend %f-col;
+}
+
+//row direction
+.f-row {
+    @extend %f-row;
+}
+
+// flex grow
+// =================================================================
+.fg-1 {
+    @extend %fg-1;
+}
+
+.fg-0 {
+    @extend %fg-0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
