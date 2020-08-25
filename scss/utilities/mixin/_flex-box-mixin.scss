@@ -1,7 +1,4 @@
-/**
- * flex
- */
-
+// flex
 @mixin flex {
     display: flex;
 }
@@ -9,9 +6,8 @@
 %flex {
     @include flex;
 }
-/**
- * flex to 1
- */
+
+//flex to 1
 @mixin f-1 {
     flex: 1;
 }
@@ -20,9 +16,7 @@
     @include f-1;
 }
 
-/**
- * flex to 0
- */
+// flex to 0
 @mixin f-0 {
     flex: 0;
 }
@@ -31,12 +25,10 @@
     @include f-0;
 }
 
-/* Align items
-   =================================================================*/
+// Align items
+//  =================================================================
 
-/**
- * to top of parent
- */
+// to top of parent
 @mixin aifs {
     align-items: flex-start;
 }
@@ -45,10 +37,7 @@
     @include aifs;
 }
 
-/**
- * to center of parent
- */
-
+// to center of parent
 @mixin aic {
     align-items: center;
 }
@@ -57,10 +46,7 @@
     @include aic;
 }
 
-/**
- * to end of parent
- **/
-
+// to end of parent
 @mixin aife {
     align-items: flex-end;
 }
@@ -69,10 +55,7 @@
     @include aife;
 }
 
-/**
- * strech
- **/
-
+// strech
 @mixin ais {
     align-items: stretch;
 }
@@ -81,12 +64,11 @@
     @include ais;
 }
 
-/* Justify content
-   =================================================================*/
+// Justify content
+//  =================================================================
 
-/**
- * left of parent
- */
+
+// left of parent
 @mixin jcfs {
     justify-content: flex-start;
 }
@@ -95,9 +77,7 @@
     @include jcfs;
 }
 
-/**
- * center of parent
- */
+// center of parent
 @mixin jcc {
     justify-content: center;
 }
@@ -106,9 +86,7 @@
     @include jcc;
 }
 
-/**
- * end of parent
- */
+// end of parent
 @mixin jcfe {
     justify-content: flex-end;
 }
@@ -117,9 +95,7 @@
     @include jcfe;
 }
 
-/**
- * around of parent
- */
+// around of parent
 @mixin jcsa {
     justify-content: space-around;
 }
@@ -128,9 +104,7 @@
     @include jcsa;
 }
 
-/**
- * between of parent
- */
+// between of parent
 @mixin jcsb {
     justify-content: space-between;
 }
@@ -139,12 +113,10 @@
     @include jcsb;
 }
 
-/* Direction
-   =================================================================*/
+// Direction
+//  =================================================================
 
-/**
- * flex to column
- */
+// flex to column
 @mixin fdr-col {
     flex-direction: column;
 }
@@ -153,9 +125,7 @@
     @include fdr-col;
 }
 
-/**
- * column reverse
- */
+// column reverse
 @mixin c-rev {
     flex-direction: column-reverse;
 }
@@ -164,9 +134,7 @@
     @include c-rev;
 }
 
-/**
- * flex to row
- */
+// flex to row
 @mixin fdr-row {
     flex-direction: row;
 }
@@ -175,9 +143,7 @@
     @include fdr-row;
 }
 
-/**
- * row reverse
- */
+// row reverse
 @mixin r-rev {
     flex-direction: row-reverse;
 }
@@ -186,12 +152,10 @@
     @include r-rev;
 }
 
-/* Flex grow
-   =================================================================*/
+// Flex grow
+//  =================================================================
 
-/**
- * grow to 1
- */
+// grow to 1
 @mixin fg-1 {
     flex-grow: 1;
 }
@@ -200,10 +164,7 @@
     @include fg-1;
 }
 
-/**
- * grow to 0
- */
-
+// grow to 0
 @mixin fg-0 {
     flex-grow: 0;
 }
@@ -211,28 +172,3 @@
 %fg-0 {
     @include fg-0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
