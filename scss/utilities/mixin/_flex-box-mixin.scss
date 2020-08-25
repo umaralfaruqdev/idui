@@ -145,23 +145,45 @@
 /**
  * flex to column
  */
-@mixin f-col {
+@mixin fdr-col {
     flex-direction: column;
 }
 
-%f-col {
-    @include f-col;
+%fdr-col {
+    @include fdr-col;
+}
+
+/**
+ * column reverse
+ */
+@mixin c-rev {
+    flex-direction: column-reverse;
+}
+
+%c-rev {
+    @include c-rev;
 }
 
 /**
  * flex to row
  */
-@mixin f-row {
+@mixin fdr-row {
     flex-direction: row;
 }
 
-%f-row {
-    @include f-row;
+%fdr-row {
+    @include fdr-row;
+}
+
+/**
+ * row reverse
+ */
+@mixin r-rev {
+    flex-direction: row-reverse;
+}
+
+%r-rev {
+    @include r-rev;
 }
 
 /* Flex grow

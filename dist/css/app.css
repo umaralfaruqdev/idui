@@ -79,14 +79,26 @@
 /**
  * flex to column
  */
-.f-col {
+.fdr-col {
   flex-direction: column; }
+
+/**
+ * column reverse
+ */
+.c-rev {
+  flex-direction: column-reverse; }
 
 /**
  * flex to row
  */
-.f-row {
+.fdr-row {
   flex-direction: row; }
+
+/**
+ * row reverse
+ */
+.r-rev {
+  flex-direction: row-reverse; }
 
 /* Flex grow
    =================================================================*/

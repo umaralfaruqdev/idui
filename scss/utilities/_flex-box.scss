@@ -71,13 +71,22 @@
 // =================================================================
 
 //column direction
-.f-col {
-    @extend %f-col;
+.fdr-col {
+    @extend %fdr-col;
+}
+
+// reverse to column
+.c-rev {
+    @extend %c-rev;
 }
 
 //row direction
-.f-row {
-    @extend %f-row;
+.fdr-row {
+    @extend %fdr-row;
+}
+//reverse to row
+.r-rev {
+    @extend %r-rev;
 }
 
 // flex grow
