@@ -1,0 +1,46 @@
+/*Navbar*/
+.navbar {
+    flex-wrap: wrap;
+    box-shadow: 0 4px 14px 5px #bbb;
+
+    @at-root {
+        /*container*/
+        & > .container {
+            padding-left: 15px;
+            padding-right: 15px;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+// toggler button
+.nb-toggler {
+    display: block;
+    height: 37px;
+    cursor: pointer;
+}
+
+// navbar collapse
+.nb-collapse {
+    display: block;
+    min-width: 100%;
+    padding-top: 15px;
+
+    // navbar navigation
+    .nb-nav {
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+
+        > li.link {
+            width: 100%;
+        }
+
+        > li.link > a.item {
+            padding: 7.5px 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    }
+}
+
