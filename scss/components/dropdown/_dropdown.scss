@@ -1,0 +1,53 @@
+// dropdown
+.dropdown {
+    position: relative;
+
+    // menu
+    .menu {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px 0;
+        min-width: 150px;
+        border: 1px solid #eee;
+        box-shadow: 0 4px 10px #ddd;
+        animation: openDropdown .3s ease-out;
+
+        > a {
+            @extend %flex;
+            padding: 7px 15px;
+            color: #444;
+            font-size: 14px;
+            text-decoration: none;
+            width: 100%;
+            transition: background-color .2s;
+
+            &:hover {
+                background-color: #f1f1f1;
+            }
+        }
+    }
+}
+
+// aniimation
+@keyframes openDropdown {
+    0%{
+        scale: 0;
+        opacity: 0;
+    }
+
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+

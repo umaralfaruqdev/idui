@@ -1,0 +1,15 @@
+// import size of button
+@import 'variable';
+
+// middle button (default)
+[class*="btn-"].md {
+    height: $btn-md;
+}
+
+// large button
+[class*="btn-"].lg {
+    height: $btn-lg;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

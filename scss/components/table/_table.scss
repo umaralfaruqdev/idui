@@ -1,0 +1,49 @@
+// table
+.table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+
+    tr {
+        th, td {
+            border: 1px solid #f4f4f4;
+            text-align: left;
+        }
+
+        th {
+            color: #444;
+            font-size: 14px;
+            padding: 15px;
+            border-bottom-width: 3px;
+        }
+
+        td {
+            padding: 10px 15px;
+        }
+    }
+
+    tr:nth-of-type(even) {
+        background-color: #f9f9f9;
+    }
+
+    // no bordered
+    &.no-border {
+        border: none;
+        
+        tr > th,
+        tr > td {
+            border-left: none;
+            border-right: none;
+        }
+    }
+}
+
+// hoverable
+// execpt
+// 1 heading
+// 2 even
+.table-hover {
+    tr:not(.heading):not(:nth-of-type(even)):hover {
+        background-color: #f9f9f9;
+    }
+}

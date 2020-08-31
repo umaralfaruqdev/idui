@@ -1,0 +1,5 @@
+@import '../variable';
+
+@mixin bg-primary {
+    background-color: $primary;
+}

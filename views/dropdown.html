@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navbar</title>
+        <!--Style-->
+        <link rel="stylesheet" href="../dist/css/app.css" />
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar">
+            <div class="container">
+                <a class="nb-brand" href="#">
+                    <img
+                        class="mr-3"
+                        src="../assets/avatars/1.jpg"
+                        width="37"
+                        height="37"
+                        alt="logo"
+                    />
+                    Tokopedia
+                </a>
+
+                <!--button for open the collapse menu-->
+                <button
+                    class="nb-toggler"
+                    data-toggle="collapse"
+                    data-state="hidden"
+                    data-target="#navabar-collapse"
+                ></button>
+
+                <div class="nb-collapse">
+                    <ul class="nb-nav">
+                        <li class="link"><a class="item" href="">Home</a></li>
+                        <li class="link">
+                            <a class="item" href="">Article</a>
+                        </li>
+                        <li class="link dropdown">
+                            <a class="item" href="">Affiliate</a>
+                            <div class="menu">
+                                <a href="">Hosting</a>
+                                <a href="">Storage</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="nb-nav ml-auto">
+                        <li class="link"><a class="item" href="">Login</a></li>
+                        <li class="link"><a class="item" href="">Signup</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/navbar-->
+
+        <script src="../ts/hello.js"></script>
+        <script src="../ts/consume.js"></script>
+    </body>
+</html>

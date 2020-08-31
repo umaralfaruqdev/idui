@@ -1,1 +1,44 @@
-@import 'utilities/flex-box';
+.b {
+    border: 1px solid tomato;
+}
+
+
+// base
+@import 'base';
+
+// component
+// ========================================================================
+
+// navbar
+@import 'components/navbar/navbar';
+
+// Button
+@import 'components/button/button';
+
+// Form input 
+@import 'components/form/input';
+
+// Table
+@import 'components/table/table';
+
+// Modal 
+@import 'components/modal/modal';
+
+// Dropdown
+@import 'components/dropdown/dropdown';
+
+// utilities
+// ========================================================================
+@import 'utilities/mixin/flex-box-mixin'; // 1
+
+// remove this if you not used flex box class
+@import 'utilities/flex-box'; // 2
+
+// margin util
+@import 'utilities/margin/margin-util';
+
+// button util
+@import 'utilities/button/button';
+
+// media query
+@import 'utilities/media/query';

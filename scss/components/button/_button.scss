@@ -1,0 +1,56 @@
+// this classes included variable color
+@import '../../utilities/color/noprint/bg';
+@import '../../utilities/color/noprint/text';
+// buton util
+@import '../../utilities/button/variable';
+
+// match class with btn- prefix 
+[class*="btn-"] {
+    padding: 0 15px;
+    height: $btn-md;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+    font-family: inherit;
+}
+
+// coloring button
+.btn-primary {
+    @include bg-primary;
+    border-color: $primary;
+}
+
+// button outline
+[class*="btn-o"] {
+    color: red;
+    background-color: transparent;
+}
+
+// coloring outline button
+.btn-o-primary {
+    color: $primary;
+}
+
+// button group
+.group-btn {
+    @extend %flex;
+
+    > :not(:first-child) {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-left: -1.5px;
+    }
+
+    > :not(:last-child) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+
+    [class*="btn-o"] {
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,10 @@
+@mixin text-primary {
+    color: $primary;
+}
+
+%text-primary {
+    @include text-primary;
+}
+
+// success
+
