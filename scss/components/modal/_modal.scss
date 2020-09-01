@@ -6,8 +6,8 @@
     right: 0;
     bottom: 0;
     left: 0;
+    display: none;
     z-index: 1050;
-
     // modal content
     .content {
         background-color: #fff;
@@ -32,9 +32,76 @@
         }
 
     }
+    // on show
+
+    &:target {
+        display: block;
+        animation: openModal ease-in-out;
+        animation-duration: .3s;
+
+        .content {
+            transform: translate(0, 25px);
+            animation: openContent .5s;
+        }
+    }
 
 }
+
+
+@keyframes openModal {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes openContent {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 25px);
+    }
+}
+
 
 .modal-close {
     margin-left: auto;
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
