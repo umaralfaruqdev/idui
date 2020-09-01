@@ -71,6 +71,9 @@ body {
   white-space: nowrap;
   font-family: inherit; }
 
+[class*="btn-"]:focus {
+  outline: 0; }
+
 .btn-primary {
   background-color: #777;
   border-color: #777; }

@@ -21,6 +21,11 @@
     font-family: inherit;
 }
 
+// onfocus
+[class*="btn-"]:focus {
+    outline: 0;
+}
+
 // coloring button
 .btn-primary {
     @include bg-primary;
