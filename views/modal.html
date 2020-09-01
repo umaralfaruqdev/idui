@@ -24,7 +24,9 @@
         </div>
         <p>Outline button</p>
         <button class="btn-o-primary">First</button>
-        <a href="#modal" class="btn-primary">Open modal</a>
+        <a onclick="openModal()" href="#modal" class="btn-primary"
+            >Open modal</a
+        >
 
         <!--modal-->
         <div class="modal" id="modal">
@@ -39,11 +41,35 @@
                     suscipit Eligendi vitae dolores
                 </div>
                 <div class="footer">
-                    <a href="#" class="btn-primary" style="margin-left: auto">
+                    <a
+                        onclick="closeModal()"
+                        href="#"
+                        class="btn-primary"
+                        style="margin-left: auto"
+                    >
                         Close
+                    </a>
+                    <a
+                        href="#modal"
+                        class="btn-primary"
+                        style="margin-left: 5px"
+                        >Open
                     </a>
                 </div>
             </div>
         </div>
+
+        <script>
+            var modal = document.querySelector('#modal');
+            function openModal() {
+                modal.style.display = 'block';
+            }
+
+            function closeModal() {
+                setTimeout(function () {
+                    modal.style.display = 'none';
+                }, 300);
+            }
+        </script>
     </body>
 </html>

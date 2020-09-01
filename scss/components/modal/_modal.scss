@@ -6,14 +6,19 @@
     right: 0;
     bottom: 0;
     left: 0;
-    display: none;
     z-index: 1050;
+    display: none;
+    opacity: 0;
+    transition: opacity .3s ease-out;
     // modal content
     .content {
         background-color: #fff;
         width: 450px;
         margin: auto;
         border-radius: 5px;
+        transform: translate(0, -25%);
+        transition: transform .3s ease-in;
+
 
         .header {
             @extend %flex;
@@ -35,9 +40,9 @@
     // on show
 
     &:target {
-        display: block;
         animation: openModal ease-in-out;
         animation-duration: .3s;
+        opacity: 1;
 
         .content {
             transform: translate(0, 25px);
