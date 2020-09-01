@@ -9,6 +9,14 @@
 %flex {
     @include flex;
 }
+
+@mixin iflex {
+    display: inline-flex;
+}
+
+%iflex {
+    @include iflex;
+}
 /**
  * flex to 1
  */
