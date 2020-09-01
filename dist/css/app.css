@@ -60,6 +60,7 @@ body {
     font-size: 14px; }
 
 [class*="btn-"] {
+  text-decoration: none;
   padding: 0 15px;
   height: 37px;
   border: 1px solid;
@@ -226,6 +227,9 @@ body {
 .navbar, .navbar > .container, .nb-brand, .nb-collapse, .nb-nav, .nb-nav > li.link > a.item, .group-btn, .modal .content .header, .modal .content .footer, .dropdown .menu > a, .flex {
   display: flex; }
 
+[class*="btn-"] {
+  display: inline-flex; }
+
 /**
  * flex to 1
  */
@@ -249,7 +253,7 @@ body {
 /**
  * to center of parent
  */
-.navbar, .navbar > .container, .nb-brand, .nb-nav, .aic {
+.navbar, .navbar > .container, .nb-brand, .nb-nav, [class*="btn-"], .aic {
   align-items: center; }
 
 /**
@@ -275,7 +279,7 @@ body {
 /**
  * center of parent
  */
-.jcc {
+[class*="btn-"], .jcc {
   justify-content: center; }
 
 /**

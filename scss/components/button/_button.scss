@@ -6,6 +6,10 @@
 
 // match class with btn- prefix 
 [class*="btn-"] {
+    @extend %iflex;
+    @extend %aic;
+    @extend %jcc;
+    text-decoration: none;
     padding: 0 15px;
     height: $btn-md;
     border: 1px solid;
