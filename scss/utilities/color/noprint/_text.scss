@@ -1,3 +1,11 @@
+@mixin text-default {
+    color: $default;
+}
+
+%text-default {
+    @include text-default;
+}
+
 @mixin text-primary {
     color: $primary;
 }
@@ -6,5 +14,35 @@
     @include text-primary;
 }
 
-// success
+@mixin text-success {
+    color: $success;
+}
+
+%text-success {
+    @include text-color;
+}
+
+@mixin text-info {
+    color: $info;
+}
+
+%text-info {
+    @include text-info;
+}
+
+@mixin text-warning {
+    color: $warning;
+}
+
+%text-warning {
+    @include text-warning;
+}
+
+@include text-danger {
+    color: $danger;
+}
+
+%text-danger {
+    @include text-danger;
+}
 
