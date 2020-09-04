@@ -3,3 +3,39 @@
 @mixin bg-primary {
     background-color: $primary;
 }
+
+%bg-primary {
+    @include bg-primary;
+}
+
+@mixin bg-success {
+    background-color: $success;
+}
+
+%bg-success {
+    @include bg-success;
+}
+
+@mixin bg-info {
+    background-color: $info;
+}
+
+%bg-info {
+    @include bg-info;
+}
+
+@mixin bg-warning {
+    background-color: $warning;
+}
+
+%bg-warning {
+    @include bg-warning;
+}
+
+@mixin bg-danger {
+    background-color: $danger;
+}
+
+%bg-danger {
+    @include bg-danger;
+}
