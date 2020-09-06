@@ -29,10 +29,8 @@
 
 // utilities
 // ========================================================================
-@import 'utilities/mixin/flex-box-mixin'; // 1
-
-// remove this if you not used flex box class
-@import 'utilities/flex-box'; // 2
+@import 'utilities/flex/mixin/flex-box-mixin';
+@import 'utilities/flex/flex-box';
 
 // margin util
 @import 'utilities/margin/margin-util';
@@ -42,3 +40,6 @@
 
 // media query
 @import 'utilities/media/query';
+
+// color
+@import 'utilities/color/index';

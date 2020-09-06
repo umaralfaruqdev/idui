@@ -4,6 +4,10 @@
     background-color: $default;
 }
 
+%bg-default {
+    @include bg-default;
+}
+
 @mixin bg-primary {
     background-color: $primary;
 }

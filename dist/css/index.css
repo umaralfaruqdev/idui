@@ -1,0 +1,35 @@
+.bg-default {
+  background-color: #736F6F; }
+
+.bg-primary {
+  background-color: #0070F3; }
+
+.bg-success {
+  background-color: #05C90D; }
+
+.bg-info {
+  background-color: #019FF8; }
+
+.bg-warning {
+  background-color: #FF7E06; }
+
+.bg-danger {
+  background-color: #F20606; }
+
+.text-default {
+  color: #736F6F; }
+
+.text-primary {
+  color: #0070F3; }
+
+.text-success {
+  color: #05C90D; }
+
+.text-info {
+  color: #019FF8; }
+
+.text-warning {
+  color: #FF7E06; }
+
+.text-danger {
+  color: #F20606; }

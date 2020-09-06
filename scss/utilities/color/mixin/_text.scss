@@ -21,7 +21,7 @@
 }
 
 %text-success {
-    @include text-color;
+    @include text-success;
 }
 
 @mixin text-info {
@@ -40,7 +40,7 @@
     @include text-warning;
 }
 
-@include text-danger {
+@mixin text-danger {
     color: $danger;
 }
 

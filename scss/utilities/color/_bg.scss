@@ -1,0 +1,25 @@
+@import 'mixin/bg';
+
+.bg-default {
+    @extend %bg-default;
+}
+
+.bg-primary {
+    @extend %bg-primary;
+}
+
+.bg-success {
+    @extend %bg-success;
+}
+
+.bg-info {
+    @extend %bg-info;
+}
+
+.bg-warning {
+    @extend %bg-warning;
+}
+
+.bg-danger {
+    @extend %bg-danger;
+}

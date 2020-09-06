@@ -1,0 +1,26 @@
+@import 'mixin/text';
+
+.text-default {
+    @extend %text-default;
+}
+
+.text-primary {
+    @extend %text-primary;
+}
+
+.text-success {
+    @extend %text-success;
+}
+
+.text-info {
+    @extend %text-info;
+}
+
+.text-warning {
+    @extend %text-warning;
+}
+
+.text-danger {
+    @extend %text-danger;
+}
+
