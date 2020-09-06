@@ -27,20 +27,60 @@
 }
 
 // coloring button
+
+.btn-default {
+    @include bg-default;
+    border-color: $default;
+}
+
 .btn-primary {
     @include bg-primary;
     border-color: $primary;
 }
 
-// button outline
-[class*="btn-o"] {
-    color: red;
-    background-color: transparent;
-}
-
-// coloring outline button
 .btn-o-primary {
     color: $primary;
+}
+
+.btn-success {
+    @include bg-success;
+    border-color: $success;
+}
+
+.btn-o-success {
+    color: $success;
+}
+
+.btn-info {
+    @include bg-info;
+    border-color: $info;
+}
+
+.btn-o-info {
+    color: $info;
+}
+
+.btn-warning {
+    @include bg-warning;
+    border-color: $warning;
+}
+
+.btn-o-warning {
+    color: $warning;
+}
+
+.btn-danger {
+    @include bg-danger;
+    border-color: $danger;
+}
+
+.btn-o-danger {
+    color: $danger;
+}
+
+// button outline
+[class*="btn-o"] {
+    background-color: transparent;
 }
 
 // button group

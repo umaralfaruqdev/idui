@@ -110,16 +110,47 @@ body {
 [class*="btn-"]:focus {
   outline: 0; }
 
+.btn-default {
+  background-color: #736F6F;
+  border-color: #736F6F; }
+
 .btn-primary {
   background-color: #0070F3;
   border-color: #0070F3; }
 
-[class*="btn-o"] {
-  color: red;
-  background-color: transparent; }
-
 .btn-o-primary {
   color: #0070F3; }
+
+.btn-success {
+  background-color: #05C90D;
+  border-color: #05C90D; }
+
+.btn-o-success {
+  color: #05C90D; }
+
+.btn-info {
+  background-color: #019FF8;
+  border-color: #019FF8; }
+
+.btn-o-info {
+  color: #019FF8; }
+
+.btn-warning {
+  background-color: #FF7E06;
+  border-color: #FF7E06; }
+
+.btn-o-warning {
+  color: #FF7E06; }
+
+.btn-danger {
+  background-color: #F20606;
+  border-color: #F20606; }
+
+.btn-o-danger {
+  color: #F20606; }
+
+[class*="btn-o"] {
+  background-color: transparent; }
 
 .group-btn > :not(:first-child) {
   border-top-left-radius: 0;
