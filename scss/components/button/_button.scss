@@ -33,6 +33,10 @@
     border-color: $default;
 }
 
+.btn-o-default {
+    color: $default;
+}
+
 .btn-primary {
     @include bg-primary;
     border-color: $primary;
