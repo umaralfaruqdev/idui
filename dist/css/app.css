@@ -116,7 +116,7 @@ body {
   border-color: #736F6F; }
 
 .btn-default:focus {
-  box-shadow: 0 0 0 3px #C7C3C3;
+  box-shadow: 0 0 0 3px rgba(115, 111, 111, 0.4);
   background-color: #616060; }
 
 .btn-o-default {
@@ -126,8 +126,9 @@ body {
   background-color: #0070F3;
   border-color: #0070F3; }
 
-.btn-primary:focus {
-  box-shadow: 0 0 0 3px #A4CEFF;
+.btn-primary:focus,
+.btn-o-primary:focus {
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.4);
   background-color: #0362D0; }
 
 .btn-o-primary {
@@ -138,7 +139,7 @@ body {
   border-color: #05C90D; }
 
 .btn-success:focus {
-  box-shadow: 0 0 0 3px #A8EAAA;
+  box-shadow: 0 0 0 3px rgba(5, 201, 13, 0.4);
   background-color: #04A904; }
 
 .btn-o-success {
@@ -149,7 +150,7 @@ body {
   border-color: #019FF8; }
 
 .btn-info:focus {
-  box-shadow: 0 0 0 3px #9CDAFD;
+  box-shadow: 0 0 0 3px rgba(1, 159, 248, 0.4);
   background-color: #048DDB; }
 
 .btn-o-info {
@@ -160,7 +161,7 @@ body {
   border-color: #FF7E06; }
 
 .btn-warning:focus {
-  box-shadow: 0 0 0 3px #FFC793;
+  box-shadow: 0 0 0 3px rgba(255, 126, 6, 0.4);
   background-color: #D86802; }
 
 .btn-o-warning {
@@ -171,13 +172,13 @@ body {
   border-color: #F20606; }
 
 .btn-danger:focus {
-  box-shadow: 0 0 0 3px #FF9595;
+  box-shadow: 0 0 0 3px rgba(242, 6, 6, 0.4);
   background-color: #DE0404; }
 
 .btn-o-danger {
   color: #F20606; }
 
-[class*="btn-o"] {
+[class*="btn-o"]:focus, [class*="btn-o"] {
   background-color: transparent; }
 
 .group-btn > :not(:first-child) {
