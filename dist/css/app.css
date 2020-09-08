@@ -7,13 +7,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Roboto; }
+  font-family: Ubuntu; }
 
 /**
  * Navbar
  */
 .navbar {
-  background-color: purple;
+  background-color: #333;
   min-height: 50px;
   padding-top: 8px;
   padding-bottom: 8px; }
@@ -26,15 +26,16 @@ body {
 
 /*brand*/
 .nb-brand {
-  font-family: 'Poppins';
-  color: #fff;
+  color: #feffff;
   text-decoration: none;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-right: 15px; }
 
 /*navbar toggler*/
 .nb-toggler {
-  border: 1px solid #fff;
-  border-radius: 5px;
+  border: 1.5px solid #777;
+  border-radius: 3px;
+  outline: 0;
   width: 50px;
   background-image: url("../../assets/icons/bars-white.svg");
   background-size: 30px;
@@ -54,10 +55,10 @@ body {
   margin: 0;
   padding: 0; }
   .nb-nav > li.link > a.item {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.55);
     padding: 8px 10px;
     text-decoration: none;
-    font-size: 14px; }
+    font-size: 16px; }
 
 .bg-default {
   background-color: #736F6F; }
@@ -527,9 +528,7 @@ body {
       .nb-collapse .nb-nav > li.link {
         width: 100%; }
       .nb-collapse .nb-nav > li.link > a.item {
-        padding: 7.5px 15px;
-        text-decoration: none;
-        font-size: 14px; } }
+        padding: 10px 15px; } }
 
 .bg-default {
   background-color: #736F6F; }
