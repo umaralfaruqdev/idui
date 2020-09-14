@@ -420,7 +420,7 @@ button::-moz-focus-inner {
 /**
  * flex to column
  */
-.fdr-col {
+.fdr-col, .row {
   flex-direction: column; }
 
 /**

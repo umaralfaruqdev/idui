@@ -1,3 +1,7 @@
+.row {
+    @extend .fdr-col;
+}
+
 .container {
     padding: 0 16px;
 }
