@@ -420,7 +420,7 @@ button::-moz-focus-inner {
 /**
  * flex to column
  */
-.fdr-col, .row {
+.fdr-col {
   flex-direction: column; }
 
 /**
@@ -623,6 +623,8 @@ button::-moz-focus-inner {
         width: 100%; }
       .nb-collapse .nb-nav > li.link > a.item {
         padding: 10px 15px; }
+  .row {
+    flex-direction: column; }
   .container {
     padding: 0 16px; }
   [class*="col-"] {
