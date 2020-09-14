@@ -32,17 +32,21 @@
 @import 'utilities/flex/mixin/flex-box-mixin';
 @import 'utilities/flex/flex-box';
 
+// text
+@import 'utilities/text/text';
+
 // margin util
 @import 'utilities/margin/margin-util';
 
 // button util
 @import 'utilities/button/button';
 
-// media query
-@import 'utilities/media/query';
 
 // color
 @import 'utilities/color/index';
 
 // grid
 @import 'utilities/grid/grid';
+
+// media query
+@import 'utilities/media/query';

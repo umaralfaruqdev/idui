@@ -9,6 +9,9 @@ body {
   padding: 0;
   font-family: Ubuntu; }
 
+button::-moz-focus-inner {
+  border: 0; }
+
 /**
  * Navbar
  */
@@ -452,6 +455,15 @@ body {
 .fg-0 {
   flex-grow: 0; }
 
+.tal {
+  text-align: left; }
+
+.tac {
+  text-align: center; }
+
+.tar {
+  text-align: right; }
+
 /**
  * Leftt margin
  */
@@ -497,39 +509,6 @@ body {
   padding-left: 20px;
   padding-right: 20px; }
 
-@media (max-width: 568px) {
-  /*Navbar*/
-  .navbar {
-    flex-wrap: wrap;
-    box-shadow: 0 4px 14px 5px #bbb; }
-  /*container*/
-    .navbar > .container {
-      padding-left: 15px;
-      padding-right: 15px;
-      flex-wrap: wrap; }
-    .navbar .dropdown > .menu {
-      position: relative;
-      width: 100%;
-      border-radius: 0;
-      box-shadow: unset; }
-  .nb-toggler {
-    display: block;
-    height: 37px;
-    cursor: pointer; }
-  .nb-collapse {
-    display: block;
-    min-width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px; }
-    .nb-collapse .nb-nav {
-      flex-wrap: wrap;
-      margin-left: -15px;
-      margin-right: -15px; }
-      .nb-collapse .nb-nav > li.link {
-        width: 100%; }
-      .nb-collapse .nb-nav > li.link > a.item {
-        padding: 10px 15px; } }
-
 .bg-default {
   background-color: #736F6F; }
 
@@ -565,6 +544,9 @@ body {
 
 .text-danger {
   color: #F20606; }
+
+.container {
+  padding: 0 75px; }
 
 .row {
   margin: 0 -15px;
@@ -608,3 +590,40 @@ body {
 
 .col-12 {
   width: 100%; }
+
+@media (max-width: 568px) {
+  /*Navbar*/
+  .navbar {
+    flex-wrap: wrap;
+    box-shadow: 0 4px 14px 5px #bbb; }
+  /*container*/
+    .navbar > .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      flex-wrap: wrap; }
+    .navbar .dropdown > .menu {
+      position: relative;
+      width: 100%;
+      border-radius: 0;
+      box-shadow: unset; }
+  .nb-toggler {
+    display: block;
+    height: 37px;
+    cursor: pointer; }
+  .nb-collapse {
+    display: block;
+    min-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .nb-collapse .nb-nav {
+      flex-wrap: wrap;
+      margin-left: -15px;
+      margin-right: -15px; }
+      .nb-collapse .nb-nav > li.link {
+        width: 100%; }
+      .nb-collapse .nb-nav > li.link > a.item {
+        padding: 10px 15px; }
+  .container {
+    padding: 0 16px; }
+  [class*="col-"] {
+    min-width: 100%; } }

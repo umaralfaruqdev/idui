@@ -2,4 +2,7 @@
 @media (max-width: 568px) {
     // navbar
     @import '../../components/navbar/query/sm';
+
+    // grid
+    @import '../../utilities/grid/query/index';
 }
