@@ -1,5 +1,10 @@
 // grid
 
+// container
+.container {
+    padding: 0 75px;
+}
+
 // row wrapper
 .row {
     @extend %flex;
