@@ -1,0 +1,9 @@
+.card {
+    @extend %flex;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+    img:last-child {
+        border-radius: 2px;
+    }
+}
