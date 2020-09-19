@@ -6,3 +6,8 @@
     // grid
     @import '../../utilities/grid/query/sm';
 }
+
+// midle
+@media (min-width: 568px) {
+    @import '../../utilites/grid/query/md';
+}
