@@ -1,0 +1,20 @@
+// small screen
+@mixin sm() {
+    @media (max-width: 568px) {
+        @content;
+    }
+}
+
+// midle
+@mixin md() {
+    @media (min-width: 568px) {
+        @content;
+    }
+}
+
+// lg
+@mixin lg() {
+    @media (min-width: 992px) {
+        @content;
+    }
+}

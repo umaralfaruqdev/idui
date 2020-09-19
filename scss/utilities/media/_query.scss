@@ -9,5 +9,10 @@
 
 // midle
 @media (min-width: 568px) {
-    @import '../../utilites/grid/query/md';
+    @import '../../utilities/grid/query/md';
+}
+
+// lg
+@media (min-width: 992px) {
+    @import '../../utilities/grid/query/lg';    
 }

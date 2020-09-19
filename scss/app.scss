@@ -32,7 +32,16 @@
 
 // utilities
 // ========================================================================
+
+// *******mixin***********
+
+// media query
+@import 'utilities/media/mixin/query';
+// flex box
 @import 'utilities/flex/mixin/flex-box-mixin';
+// *******end mixin*******
+
+
 @import 'utilities/flex/flex-box';
 
 // text
@@ -56,4 +65,4 @@
 
 // media query
 @import 'utilities/media/query';
-@import 'utilities/media/mixin/query';
+
